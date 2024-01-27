@@ -1,0 +1,11 @@
+Abstraction means hiding internal details and showing only required features.
+Encapsulation means Binding (or wrapping) code and data together into a single unit are known as encapsulation.
+
+Inheritance When one object acquires all the properties and behaviors of a parent object, it is known as inheritance.
+It provides code reusability. It is used to achieve runtime polymorphism.
+
+So inheritance means specialization and polymorphism means generalization.
+
+For every class Java will create a separate class file, .class file.
+
+If you want to print the object itself,     then the object should have toString method implemented.

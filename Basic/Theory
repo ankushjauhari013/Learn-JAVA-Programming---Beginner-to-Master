@@ -1,0 +1,42 @@
+Java is Simple*
+Java is Secure (JVM Having Security manager/ verifier)
+Java is Portable (Platform Independent)
+Java is OOPs (Paradigm 4-Pillars )
+Java is Robust (Strong, Never crash in worst condition {Exception Handling})
+Java is MultiThreaded (Single program into multiple pieces which runs simultaneously)
+Java is Interpreted (JIT compiler makes faster)
+Java is HighPerformance
+Java is Distributed (Distributed Computing)
+Java is Dynamic (Every object is dynamic coz present in Heap)
+
+We have to write a program file that is First.java , We have written this program file. Then we use 'javac'
+for compiling our program. So this file is called as Source code Right Source file or source code.
+Because here we are writing Java Code. Compiler will read this source code and confirm that it is error free.
+If there are no errors, then it will generate a class file, First.class file. And this file will
+not have machine code.But it will have bytecode. It will have bytecode. So Java compiler will convert
+a source code into bytecode. So this bytecode is not a executable program. But this is error free program ,
+it's not having any errors. Then how Java program can execute, bytecode will not execute.
+Then how it will execute , For execution We call Java that is nothing but we call JVM and we ask JVM to
+execute this file.You can think that the laptop that you're using is a machine and within that there is a VM
+It's not a real machine ,it virtual This virtual machine will have interpreter or JIT compiler,
+it will also have JIT compiler.This is called asJust In Time compiler.So interpreter or JIT compiler,
+that will convert this bytecode into machine code and get it executed on the hardware.
+Can JVM directly interact with the hardware? No, it will interact with hardware via operating system.
+Not directly but via operating system, so JVM will talk to operating system and operating system
+will help JVM to get its program executed.
+This JVM understands bytecode and can talk to Windows/Linux/MacOs
+
+In Java, the mechanism of converting one type of object to another object of a different type with similar
+content is known as coercion.
+In other words, we can say that coercion is the process of converting one data type to another data type.
+In a more specific way, implicit conversion is called coercion.
+
+Format Specifier  %[argument_index$][flags][width][.precision]conversion
+is independent of order of arguments in which you were order,you mention you can print
+them in order as like. (System.out.printf("%3$s %2$f %1$d \n",int,float,str);)
+System.out.printf("%5d",a);     [%5width]
+System.out.printf("%05d",a);    [flags ,If blank spaces then put Zeroes]
+
+***************************     STRING      *********************************************************
+
+Variables of type Object we called as Reference.
